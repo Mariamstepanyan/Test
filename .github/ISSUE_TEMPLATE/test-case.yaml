@@ -33,7 +33,6 @@ body:
       description: Who is executing this test case?
       options:
         - Mariam Stepanyan
-      placeholder: ex. John Doe
     validations:
       required: false
   - type: dropdown
