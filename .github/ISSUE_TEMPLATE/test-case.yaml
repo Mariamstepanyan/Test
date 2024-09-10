@@ -11,11 +11,57 @@ body:
       value: |
         Thanks for taking the time to execute this test case!
   - type: input
+    id: test-case-id
+    attributes:
+      label: Test Case ID
+      description: Auto-generated ID for the test case.
+      placeholder: ex. TC-001
+    validations:
+      required: true
+  - type: input
     id: tester
     attributes:
       label: Tester Name
       description: Who is executing this test case?
       placeholder: ex. John Doe
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Select the priority level for this test case.
+      options:
+        - Highest
+        - High
+        - Medium
+        - Low
+        - Lowest
+      default: 2
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: Select the severity level for this test case.
+      options:
+        - Critical
+        - Blocking
+        - Medium
+        - Low
+      default: 2
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: Select the status of this test case.
+      options:
+        - Passed
+        - Failed
+      default: 0
     validations:
       required: true
   - type: textarea
@@ -50,6 +96,14 @@ body:
       placeholder: Describe the actual outcome.
     validations:
       required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description: Any additional comments or observations.
+      placeholder: Add any relevant comments here.
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
