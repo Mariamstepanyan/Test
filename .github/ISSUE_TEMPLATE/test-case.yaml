@@ -83,6 +83,8 @@ body:
   - type: textarea
     id: comments
     attributes:
+    validations:
+      required: false
       label: Comments
       description: Any additional comments or observations.
       placeholder: Add any relevant comments here.
