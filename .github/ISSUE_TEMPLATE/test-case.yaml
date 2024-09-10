@@ -16,8 +16,6 @@ body:
       label: Test Case ID
       description: Auto-generated ID for the test case.
       placeholder: ex. TC-001
-      value: TC-001
-      option:[1,2,3,4]:
     validations:
       required: true
       readOnly: true
@@ -119,4 +117,5 @@ body:
       description: By submitting this test case, you agree to follow our Code of Conduct. 
       options:
         - label: I agree to follow this project's Code of Conduct
-          required: true
+    validations:
+      required: true
