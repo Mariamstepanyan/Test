@@ -1,6 +1,6 @@
 name: Test Case
 description: Execute a test case.
-title: "[Test Case]: "
+title: "[TC]: "
 labels: ["test", "QA"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
