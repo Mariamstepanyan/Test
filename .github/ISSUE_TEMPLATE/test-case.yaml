@@ -15,7 +15,6 @@ body:
     attributes:
       label: Test Case ID
       description: Auto-generated ID for the test case.
-      placeholder: ex. TC-001
       value: TC-001
     validations:
       required: true
