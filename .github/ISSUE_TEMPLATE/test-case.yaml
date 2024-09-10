@@ -1,6 +1,6 @@
 name: Test Case
 description: Execute a test case.
-title: "[TC]: "
+title: "[Test Case]: "
 labels: ["test", "QA"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
@@ -14,8 +14,8 @@ body:
     id: test-case-id
     attributes:
       label: Test Case ID
-      description: ID for the test case.
-      placeholder: ex. TC-001
+      description: Auto-generated ID for the test case (e.g., TC-001). This should be unique and auto-incremented.
+      placeholder: "TC-###"  # This is a placeholder; actual value is handled by backend logic.
     validations:
       required: true
       readOnly: true
