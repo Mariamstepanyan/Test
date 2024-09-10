@@ -26,14 +26,14 @@ body:
       placeholder: ex. Verify login functionality
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: tester
     attributes:
       label: Tester Name
       description: Who is executing this test case?
-      placeholder: ex. John Doe
       options:
         - Mariam Stepanyan
+      placeholder: ex. John Doe
     validations:
       required: false
   - type: dropdown
