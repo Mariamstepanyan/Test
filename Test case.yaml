@@ -18,12 +18,16 @@ body:
       placeholder: ex. TC-001
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: tester
     attributes:
       label: Tester Name
       description: Who is executing this test case?
-      placeholder: ex. John Doe
+      options:
+        - @user1
+        - @user2
+        - @user3
+      placeholder: Select a user
     validations:
       required: true
   - type: dropdown
