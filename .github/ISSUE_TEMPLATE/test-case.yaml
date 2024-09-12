@@ -1,5 +1,3 @@
-name: Test Case
-description: Execute a test case.
 title: "[TC-]: "  # Placeholder for the test case title
 labels: ["test", "QA"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -32,11 +30,11 @@ body:
       label: Priority
       description: Select the priority level for this test case.
       options:
-        - Highest
-        - High
-        - Medium
-        - Low
-        - Lowest
+        - P1
+        - P2
+        - P3
+        - P4
+        - P5
     validations:
       required: false
   - type: textarea
@@ -71,24 +69,6 @@ body:
       placeholder: Describe the actual outcome.
     validations:
       required: false
-  - type: dropdown
-    id: status
-    attributes:
-      label: Status
-      description: Select the status of this test case.
-      options:
-        - Passed
-        - Failed
-    validations:
-      required: false
-  - type: input
-    id: related-bug-report
-    attributes:
-      label: Related Bug Report
-      description: Link to the related bug report, if any.
-      placeholder: ex. #123
-    validations:
-      required: false
   - type: textarea
     id: comments
     attributes:
@@ -107,6 +87,16 @@ body:
         - Blocking
         - Medium
         - Low
+    validations:
+      required: false
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: Select the status of this test case.
+      options:
+        - Passed
+        - Failed
     validations:
       required: false
   - type: checkboxes
