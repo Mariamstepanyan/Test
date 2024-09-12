@@ -1,0 +1,113 @@
+title: "[BUG-]: "  # Placeholder for the bug report title
+labels: ["bug", "QA"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  content:
+    - type: markdown
+      attributes:
+        value: |
+          Thanks for reporting this bug!
+    - type: input
+      id: bug-title
+      attributes:
+        label: Bug Title
+        description: Title of the bug report.
+        placeholder: ex. Login button not working
+      validations:
+        required: true
+    - type: input
+      id: reporter
+      attributes:
+        label: Reporter Name
+        description: Who is reporting this bug?
+        placeholder: ex. Jane Doe
+      validations:
+        required: false
+    - type: dropdown
+      id: priority
+      attributes:
+        label: Priority
+        description: Select the priority level for this bug.
+        options:
+          - P1
+          - P2
+          - P3
+          - P4
+          - P5
+      validations:
+        required: false
+    - type: textarea
+      id: preconditions
+      attributes:
+        label: Preconditions
+        description: What are the preconditions for this bug?
+        placeholder: Describe any setup required before encountering the bug.
+      validations:
+        required: false
+    - type: textarea
+      id: steps
+      attributes:
+        label: Steps to Reproduce
+        description: What are the steps to reproduce this bug?
+        placeholder: List the steps in detail.
+      validations:
+        required: true
+    - type: textarea
+      id: expected-results
+      attributes:
+        label: Expected Results
+        description: What are the expected results?
+        placeholder: Describe the expected outcome.
+      validations:
+        required: true
+    - type: textarea
+      id: actual-results
+      attributes:
+        label: Actual Results
+        description: What are the actual results after reproducing the bug?
+        placeholder: Describe the actual outcome.
+      validations:
+        required: true
+    - type: textarea
+      id: comments
+      attributes:
+        label: Comments
+        description: Any additional comments or observations.
+        placeholder: Add any relevant comments here.
+      validations:
+        required: false
+    - type: dropdown
+      id: severity
+      attributes:
+        label: Severity
+        description: Select the severity level for this bug.
+        options:
+          - Critical
+          - Blocking
+          - Medium
+          - Low
+      validations:
+        required: true
+    - type: dropdown
+      id: status
+      attributes:
+        label: Status
+        description: Select the status of this bug.
+        options:
+          - Open
+          - In Progress
+          - Resolved
+          - Closed
+      validations:
+        required: true
+    - type: checkboxes
+      id: terms
+      attributes:
+        label: Code of Conduct
+        description: By submitting this bug report, you agree to follow our Code of Conduct. 
+        options:
+          - label: I agree to follow this project's Code of Conduct
+      validations:
+        required: true
