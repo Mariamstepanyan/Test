@@ -32,11 +32,21 @@ body:
       label: Priority
       description: Select the priority level for this test case.
       options:
-        - Highest
-        - High
-        - Medium
-        - Low
-        - Lowest
+        - label: P1 (Red)
+          value: P1
+          color: '#FF0000'
+        - label: P2 (Pink)
+          value: P2
+          color: '#FFC0CB'
+        - label: P3 (Orange)
+          value: P3
+          color: '#FFA500'
+        - label: P4 (Yellow)
+          value: P4
+          color: '#FFFF00'
+        - label: P5 (Light Grey)
+          value: P5
+          color: '#D3D3D3'
     validations:
       required: false
   - type: textarea
