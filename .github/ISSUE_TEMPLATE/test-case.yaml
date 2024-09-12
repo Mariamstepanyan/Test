@@ -1,5 +1,5 @@
-name: Test Case
-description: Execute a test case.
+name: "Test Case Template"  # Add a name for your template
+description: "Template for creating test cases"  # Add a description for your template
 title: "[TC-]: "  # Placeholder for the test case title
 labels: ["test", "QA"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -32,21 +32,11 @@ body:
       label: Priority
       description: Select the priority level for this test case.
       options:
-        - label: P1 (Red)
-          value: P1
-          color: '#FF0000'
-        - label: P2 (Pink)
-          value: P2
-          color: '#FFC0CB'
-        - label: P3 (Orange)
-          value: P3
-          color: '#FFA500'
-        - label: P4 (Yellow)
-          value: P4
-          color: '#FFFF00'
-        - label: P5 (Light Grey)
-          value: P5
-          color: '#D3D3D3'
+        - P1
+        - P2
+        - P3
+        - P4
+        - P5
     validations:
       required: false
   - type: textarea
