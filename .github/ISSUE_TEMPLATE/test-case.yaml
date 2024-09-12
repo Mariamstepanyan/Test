@@ -1,3 +1,4 @@
+name: "Test Case Template"  # Add a name for your template
 title: "[TC-]: "  # Placeholder for the test case title
 labels: ["test", "QA"]
 projects: ["octo-org/1", "octo-org/44"]
