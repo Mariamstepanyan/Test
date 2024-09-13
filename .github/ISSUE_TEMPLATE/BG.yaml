@@ -106,14 +106,23 @@ body:
       required: false
 
   - type: dropdown
-    id: branches
+    id: branches_dropdown
     attributes:
-      label: Branches
-      description: Select the branch where the bug was found.
+      label: Select Branches
+      description: Choose from existing branches.
       options:
         - branch1
         - branch2
         - branch3
+    validations:
+      required: false
+
+  - type: input
+    id: custom_branch
+    attributes:
+      label: Custom Branch
+      description: Enter a branch name if not listed above.
+      placeholder: "Custom branch"
     validations:
       required: false
 
