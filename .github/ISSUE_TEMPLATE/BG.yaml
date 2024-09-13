@@ -72,7 +72,18 @@ body:
       placeholder: "Actual behavior"
     validations:
       required: true
-
+      
+      label: Priority
+      description: Select the priority level for this Bug.
+      options:
+        - P1
+        - P2
+        - P3
+        - P4
+        - P5
+    validations:
+      required: false
+      
   - type: textarea
     id: screenshots
     attributes:
@@ -90,3 +101,11 @@ body:
       placeholder: "Browser, OS"
     validations:
       required: true
+      
+      label: Severity
+      description: Select the severity level for this test case.
+      options:
+        - Critical
+        - Blocking
+        - Medium
+        - Low
