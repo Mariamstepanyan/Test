@@ -29,6 +29,15 @@ body:
       required: true
 
   - type: input
+    id: version
+    attributes:
+      label: Version of Application
+      description: The version of the application where the bug was found.
+      placeholder: "Application version"
+    validations:
+      required: true
+
+  - type: input
     id: steps
     attributes:
       label: Steps to Reproduce
