@@ -106,6 +106,20 @@ body:
       required: false
 
   - type: dropdown
+    id: branches
+    attributes:
+      label: Branches
+      description: Select the branch where the bug was found.
+      options:
+        - branch1
+        - branch2
+        - branch3
+      multiple: false
+      allow_custom: true
+    validations:
+      required: false
+
+  - type: dropdown
     id: severity
     attributes:
       label: Severity
