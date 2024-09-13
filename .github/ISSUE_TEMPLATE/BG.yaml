@@ -25,9 +25,8 @@ body:
       label: Reporter
       description: The person reporting the bug.
       options:
-        - "Mariam Stepanyan"
+        - Mariam Stepanyan
         - Other
-    default: Mariam Stepanyan
     validations:
       required: false
 
