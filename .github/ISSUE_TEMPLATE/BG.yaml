@@ -1,6 +1,6 @@
 name: "Bug Report"
 description: File a bug report.
-bug title: "[Bug]: "
+title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees: 
   - your-username
