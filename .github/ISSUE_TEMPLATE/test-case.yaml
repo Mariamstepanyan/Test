@@ -9,9 +9,7 @@ body:
     attributes:
       value: |
         Title of the test case..
-
-        
-    - type: dropdown
+  - type: dropdown
     id: tester
     attributes:
       label: Tester
@@ -20,8 +18,6 @@ body:
         - Mariam Stepanyan
     validations:
       required: false
-      
-      
   - type: dropdown
     id: priority
     attributes:
@@ -35,7 +31,6 @@ body:
         - P5
     validations:
       required: false
-      
   - type: textarea
     id: preconditions
     attributes:
@@ -44,7 +39,6 @@ body:
       placeholder: Describe any setup required before executing the test.
     validations:
       required: false
-      
   - type: textarea
     id: steps
     attributes:
@@ -53,7 +47,6 @@ body:
       placeholder: List the steps in detail.
     validations:
       required: false
-      
   - type: textarea
     id: expected-results
     attributes:
@@ -62,7 +55,6 @@ body:
       placeholder: Describe the expected outcome.
     validations:
       required: false
-      
   - type: textarea
     id: actual-results
     attributes:
@@ -71,7 +63,6 @@ body:
       placeholder: Describe the actual outcome.
     validations:
       required: false
-      
   - type: textarea
     id: comments
     attributes:
@@ -80,7 +71,6 @@ body:
       placeholder: Add any relevant comments here.
     validations:
       required: false
-      
   - type: dropdown
     id: severity
     attributes:
@@ -93,7 +83,6 @@ body:
         - Low
     validations:
       required: false
-      
   - type: dropdown
     id: status
     attributes:
@@ -104,4 +93,3 @@ body:
         - Failed
     validations:
       required: false
-      
