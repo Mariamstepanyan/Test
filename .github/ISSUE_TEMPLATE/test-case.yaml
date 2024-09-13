@@ -1,7 +1,7 @@
 name: "Test case"
 description: File a Test Case.
 title: "[TC: ] "
-labels: ["test case", "triage"]
+labels: ["Test Case", "triage"]
 assignees: 
   - your-username
 body:
