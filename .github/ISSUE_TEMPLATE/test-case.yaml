@@ -1,6 +1,6 @@
 name: "Test case"
 description: File a Test Case.
-title: "[TC: -]: "
+title: "[TC: ] "
 labels: ["test case", "triage"]
 assignees: 
   - your-username
@@ -105,12 +105,3 @@ body:
     validations:
       required: false
       
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this test case, you agree to follow our Code of Conduct. 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-    validations:
-      required: true
