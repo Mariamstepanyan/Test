@@ -27,6 +27,7 @@ body:
       options:
         - Mariam Stepanyan
         - Other
+    default: Mariam Stepanyan
     validations:
       required: false
 
