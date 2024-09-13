@@ -114,8 +114,6 @@ body:
         - branch1
         - branch2
         - branch3
-      multiple: false
-      allow_custom: true
     validations:
       required: false
 
