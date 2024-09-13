@@ -19,20 +19,18 @@ body:
     validations:
       required: true
 
-- type: dropdown
-  id: reporter
-  attributes:
-    label: Reporter
-    description: The person reporting the bug.
-    options:
-      - Mariam Stepanyan
-      - Other
-  default: Mariam Stepanyan
-  validations:
-    required: false
+  - type: dropdown
+    id: reporter
+    attributes:
+      label: Reporter
+      description: The person reporting the bug.
+      options:
+        - Mariam Stepanyan
+        - Other
+    default: Mariam Stepanyan
+    validations:
+      required: false
 
-
-      
   - type: textarea
     id: description
     attributes:
