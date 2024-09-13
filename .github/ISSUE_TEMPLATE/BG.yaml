@@ -114,16 +114,15 @@ body:
         - NAIRI-BK
         - EREBUNI-BK
         - SLAVMED-BK
-        - SLAVMED-BK-1953
     validations:
       required: false
 
   - type: input
     id: custom_branch
     attributes:
-      label: Custom Branch
+      label: Temporary Branch
       description: Enter a branch name if not listed above.
-      placeholder: "Custom branch"
+      placeholder: "Temporary branch"
     validations:
       required: false
 
