@@ -1,15 +1,14 @@
-name: "Test Case Template"  # Add a name for your template
-description: "Template for creating test cases"  # Add a description for your template
-title: "[TC-]: "  # Placeholder for the test case title
-labels: ["test", "QA"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: "Test case"
+description: File a Test Case.
+title: "[TC: -]: "
+labels: ["test case", "triage"]
+assignees: 
+  - your-username
 body:
   - type: markdown
     attributes:
       value: |
-        Title of the test case!
+        Title of the test case..
 
         
     - type: dropdown
