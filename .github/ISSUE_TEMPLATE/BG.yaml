@@ -44,7 +44,7 @@ body:
       description: The version of the application where the bug was found.
       placeholder: "Application version"
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: priority
@@ -67,7 +67,7 @@ body:
       description: The steps to reproduce the bug.
       placeholder: "1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See error"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: expected
@@ -76,7 +76,7 @@ body:
       description: What you expected to happen.
       placeholder: "Expected behavior"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: actual
@@ -85,7 +85,7 @@ body:
       description: What actually happened.
       placeholder: "Actual behavior"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: screenshots
@@ -103,7 +103,7 @@ body:
       description: The environment where the bug occurred (e.g., browser, OS).
       placeholder: "Browser, OS"
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: severity
