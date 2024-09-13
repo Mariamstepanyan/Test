@@ -111,9 +111,10 @@ body:
       label: Select Branches
       description: Choose from existing branches.
       options:
-        - branch1
-        - branch2
-        - branch3
+        - NAIRI-BK
+        - EREBUNI-BK
+        - SLAVMED-BK
+        - SLAVMED-BK-1953
     validations:
       required: false
 
