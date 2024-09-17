@@ -2,14 +2,13 @@ name: "Bug Report"
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
-label: ["Priority"]
 assignees: 
   - your-username
 body:
   - type: markdown
     attributes:
       value: |
-        A brief description of the bug.
+A brief description of the bug.
 
   - type: dropdown
     id: reporter
