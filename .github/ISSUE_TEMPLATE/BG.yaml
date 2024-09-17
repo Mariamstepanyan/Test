@@ -26,7 +26,7 @@ body:
       description: A detailed description of the bug.
       placeholder: "Describe the bug"
     validations:
-      required: true
+      required: false
   - type: input
     id: app_version
     attributes:
