@@ -9,6 +9,28 @@ body:
     attributes:
       value: |
         A brief description of the bug.
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Select the priority of the bug.
+      options:
+        - P1
+        - P2
+        - P3
+        - P4
+        - P5
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: Select the severity of the bug.
+      options:
+        - Critical
+        - Blocking
+        - Medium
+        - Low
+
 
   - type: dropdown
     id: reporter
@@ -38,19 +60,6 @@ body:
     validations:
       required: false
 
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: Select the priority level for this bug. (P1-Highest, P2-High, P3-Medium, P4-Low, P5-Lowest)
-      options:
-        - P1
-        - P2
-        - P3
-        - P4
-        - P5
-    validations:
-      required: false
 
   - type: textarea
     id: steps
@@ -119,16 +128,12 @@ body:
       placeholder: "Temporary branch"
     validations:
       required: false
-
-  - type: dropdown
-    id: severity
+      
+  - type: input
+    id: version
     attributes:
-      label: Severity
-      description: Severity describes the impact of the defect on the application.
-      options:
-        - Critical
-        - Blocking
-        - Medium
-        - Low
+      label: Version
+      description: The version of the application where the bug was found.
+      placeholder: "Application version"
     validations:
       required: false
