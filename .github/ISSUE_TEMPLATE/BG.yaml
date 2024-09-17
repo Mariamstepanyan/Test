@@ -26,6 +26,14 @@ body:
       placeholder: "Describe the bug"
     validations:
       required: false
+  - type: input
+    id: related_task_link
+    attributes:
+      label: Related Task link
+      description: Provide a link to the related task.
+      placeholder: "Related task link"
+    validations:
+      required: false
   - type: textarea
     id: steps
     attributes:
