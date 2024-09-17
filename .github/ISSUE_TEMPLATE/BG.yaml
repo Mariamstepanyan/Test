@@ -1,7 +1,7 @@
 name: "Bug Report"
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug", "triage", "priority", "Severity"]
+labels: ["bug", "triage"]
 assignees: 
   - your-username
 body:
@@ -80,7 +80,7 @@ body:
   - type: checkboxes
     id: branches_dropdown
     attributes:
-      label: Select Branches
+      label: Branches
       description: Choose from existing branches.
       options:
         - label: NAIRI-BK
