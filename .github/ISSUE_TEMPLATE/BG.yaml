@@ -97,22 +97,17 @@ body:
         - Test
     validations:
       required: false
-
-      
-- type: checkboxes
-  id: branches_dropdown
-  attributes:
-    label: Select Branches
-    description: Choose from existing branches.
-    options:
-      - NAIRI-BK
-      - EREBUNI-BK
-      - SLAVMED-BK
-  validations:
-    required: false
-
-
-      
+  - type: checkboxes
+    id: branches_dropdown
+    attributes:
+      label: Select Branches
+      description: Choose from existing branches.
+      options:
+        - NAIRI-BK
+        - EREBUNI-BK
+        - SLAVMED-BK
+    validations:
+      required: false
   - type: input
     id: custom_branch
     attributes:
