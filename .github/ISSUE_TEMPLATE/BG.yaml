@@ -1,7 +1,7 @@
 name: "Bug Report"
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug", "triage", "priority"]
+labels: ["bug", "triage", "priority", "Severity"]
 assignees: 
   - your-username
 body:
@@ -10,16 +10,6 @@ body:
       value: |
         A brief description of the bug.
 
-  - type: dropdown
-    id: severity
-    attributes:
-      label: Severity
-      description: Select the severity of the bug.
-      options:
-        - Critical
-        - Blocking
-        - Medium
-        - Low
   - type: dropdown
     id: reporter
     attributes:
