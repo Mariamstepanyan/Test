@@ -27,14 +27,8 @@ body:
       placeholder: "Describe the bug"
     validations:
       required: false
-  - type: input
-    id: app_version
-    attributes:
-      label: Version
-      description: The version of the application where the bug was found.
-      placeholder: "Application version"
-    validations:
-      required: false
+      
+
   - type: textarea
     id: steps
     attributes:
@@ -94,5 +88,13 @@ body:
       label: Temporary Branch
       description: Enter a branch name if not listed above.
       placeholder: "Temporary branch"
+    validations:
+      required: false
+  - type: input
+    id: app_version
+    attributes:
+      label: Version
+      description: The version of the application where the bug was found.
+      placeholder: "Application version"
     validations:
       required: false
