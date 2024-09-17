@@ -19,6 +19,7 @@ body:
         - Mariam Stepanyan
     validations:
       required: false
+      
   - type: textarea
     id: description
     attributes:
@@ -37,6 +38,7 @@ body:
       placeholder: "1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See error"
     validations:
       required: false
+      
   - type: textarea
     id: expected
     attributes:
@@ -45,6 +47,7 @@ body:
       placeholder: "Expected behavior"
     validations:
       required: false
+      
   - type: textarea
     id: actual
     attributes:
@@ -53,6 +56,7 @@ body:
       placeholder: "Actual behavior"
     validations:
       required: false
+      
   - type: textarea
     id: screenshots
     attributes:
@@ -61,16 +65,18 @@ body:
       placeholder: "Add screenshots"
     validations:
       required: false
-  - type: dropdown
-    id: environment
+      
+  - type: chekcbox
+    id: environment_dropdown
     attributes:
       label: Environment
-      description: The environment where the bug occurred.
+      description: Choose The environment where the bug occurred.
       options:
         - Prod
         - Test
     validations:
       required: false
+      
   - type: checkboxes
     id: branches_dropdown
     attributes:
@@ -82,6 +88,7 @@ body:
         - label: SLAVMED-BK
     validations:
       required: false
+      
   - type: input
     id: custom_branch
     attributes:
@@ -90,6 +97,7 @@ body:
       placeholder: "Temporary branch"
     validations:
       required: false
+      
   - type: input
     id: app_version
     attributes:
